@@ -40,6 +40,7 @@ public class ItemList {
 	}
 	
 	public String[] getArray(){
+		//Cast the return element to String[]
 		return (String[]) this.items.toArray(new String[this.items.size()]);
 	}
 	
